@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -24,7 +25,7 @@ section {
 
 .heading {
   text-align: center;
-  background: rgba(31, 236, 4, 0.603);
+  background: rgba(28, 173, 218, 0.959);
 }
 
 .heading h1 {
@@ -253,7 +254,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 92vh;
+  min-height: 60vh;
   padding: 2rem 7%;
   background-size: cover !important;
   background-position: center !important;
@@ -380,9 +381,9 @@ section {
 }
 
 .products .box-container .box {
-  border-radius: .5rem;
+  border-radius: 23px;
   text-align: center;
-  border: 0.2rem solid #333;
+  border: 0.2rem solid hwb(180 87% 9% / 0.938);
 }
 
 .products .box-container .box:hover .image .icons {
@@ -391,9 +392,10 @@ section {
 }
 
 .products .box-container .box .image {
-  border-radius: .5rem;
+  border-radius: 23px;
   overflow: hidden;
   position: relative;
+
   height: 25rem;
   width: 100%;
 }
@@ -432,9 +434,24 @@ section {
   padding: 1.5rem 0;
 }
 
-.products .box-container .box .content h3 ul li {
-  font-size: 5rem;
+.products .box-container .box .content h3  {
+  font-size: 3.8 rem;
+  text-align: left;
+  margin-left: 20px;
   color: #333;
+}
+.products .box-container .box .content  p  {
+  font-size: 2.5 rem;
+  text-align: left;
+  margin-left: 20px;
+  color: #333;
+}
+.products.center img{
+  height:25%;
+  width: 50%;
+
+ 
+
 }
 
 .products .box-container .box .content .stars {
@@ -447,12 +464,20 @@ section {
 }
 
 .products .box-container .box .content .price {
-  font-size: 2.2rem;
+  font-size: 1.3rem;
+  text-align: left;
+ margin-left: 20px;
+
   color: #333;
+}
+mark { 
+  background-color: rgb(142, 250, 79);
+  color: black;
 }
 
 .products .box-container .box .content .price span {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: left;
   text-decoration: line-through;
   color: #666;
 }
@@ -479,6 +504,9 @@ section {
   width: 100%;
   border-radius: .5rem;
 }
+
+
+
 
 .about .row .content {
   -webkit-box-flex: 1;
@@ -577,6 +605,37 @@ section {
 .blogs .box-container .box .content {
   padding: 2rem;
 }
+
+.detail  {
+  font-size: 2.0rem;
+  text-align: right;
+  margin-left: 40px;
+  padding-top: 40px;
+ 
+}
+#sp{
+  text-decoration: line-through;
+  padding-right: 10px;
+}
+#pic{
+  width: 60%;
+  height:50%;
+  border-radius: 23px;
+  margin-left: 0%;
+  position: relative;
+
+}
+  .cont{
+    display: flex;
+   padding-top: 20px;
+    padding-left: 20px;
+    width:80%;
+    margin: 5rem ;
+    justify-content: space-between;
+  }
+  
+
+
 
 .blogs .box-container .box .content h3 {
   font-size: 2rem;
